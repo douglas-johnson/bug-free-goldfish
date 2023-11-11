@@ -1,0 +1,14 @@
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+@import url("css/light-mode.css") (prefers-color-scheme: light);
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--color-subject-contrast-default, dimgray);
+    background-color: var(--color-surface-contrast-default, whitesmoke);
+}

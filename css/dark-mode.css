@@ -1,0 +1,7 @@
+:root {
+    --color-subject-contrast-default: whitesmoke;
+    --color-subject-contrast-max: white;
+
+    --color-surface-contrast-max: black;
+    --color-surface-contrast-default: dimgray;
+}
